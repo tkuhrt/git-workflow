@@ -7,12 +7,27 @@ From the Github interface, click on the fork button ![fork](images/fork.png)
 
 
 
-### Ensure Git environment variables  match your Github profile
+### Ensure Git environment variables match your Github profile
 Verify that your user name and email in your local git environment match what you have in Github
 ```bash
 git config user.name
 git config user.email
 ```
+
+
+### Update Git environment variables
+You can set these variables with the following
+```
+git config user.email "email@example.com"
+git config user.name "Mona Lisa"
+```
+
+  * Replace **_email@example.com** with the email matching your Github profile
+  * Replace **_Mona Lisa_** with the name matching your Github profile
+
+---
+`git config --global` will change all repositories
+
 
 
 
@@ -88,9 +103,8 @@ Resolve any merge conflicts
 
 ### Push changes to user's Github
 ```bash
-git push user branch-name
+git push origin branch-name
 ```
-  * Replace **_user_** with your username
   * Replace branch-name with name of branch where you made your changes
 
 
