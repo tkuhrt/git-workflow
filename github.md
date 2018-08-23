@@ -45,7 +45,7 @@ git clone https://github.com/user/repo
 ```bash
 git checkout -b branch-name
 ```
-  * Replace branch-name with a meaningful name for your work
+  * Replace **_branch-name_** with a meaningful name for your work
 
 
 
@@ -105,7 +105,7 @@ Resolve any merge conflicts
 ```bash
 git push origin branch-name
 ```
-  * Replace branch-name with name of branch where you made your changes
+  * Replace **_branch-name_** with name of branch where you made your changes
 
 
 
